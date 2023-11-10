@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS-TASK-2</title>
+</head>
+<body>
+  <h2>Javascript function that sorts the given string</h2>
+  <p>Everytime you need to refresh the page to give user input</p>
+  <script>
+    const sortString = (string) => {
+      return string.split('').sort().join('');
+    };
+
+    const x = prompt("Enter a String");
+    const y = sortString(x);
+
+    alert(`The sorted string of ${x} is ${y}`);
+  </script>
+</body>
+</html>

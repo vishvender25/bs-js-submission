@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS-TASK-1</title>
+</head>
+<body>
+  <h2>Javascript function that reverse a number</h2>
+  <p>Everytime you need to refresh the page to give user input</p>
+  <script>
+    const reverseNumber = (number) => {
+      return number.toString().split('').reverse().join('');
+    };
+
+    const x = prompt("Enter a number");
+    const y = reverseNumber(x);
+
+    alert(`The reverse of ${x} is ${y}`);
+  </script>
+</body>
+</html>
